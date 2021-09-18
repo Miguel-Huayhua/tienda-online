@@ -63,7 +63,7 @@ export default {
       this.$refs.listaTipo.classList.toggle("show-items");
     },
     onProds(type) {
-      axios.get(`http://localhost:3000/prods/${type}`).then((val) => {
+      axios.get(`https://api-tienda-miguel.herokuapp.com/prods/${type}`).then((val) => {
         console.log(val.data);
         this.$refs.prods.datos = val.data;
         document.title=type

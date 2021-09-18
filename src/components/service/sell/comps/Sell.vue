@@ -57,7 +57,7 @@ export default {
     },
   },
   mounted() {
-    axios.get("http://localhost:3000/").then((val) => {
+    axios.get("https://api-tienda-miguel.herokuapp.com/").then((val) => {
       this.datos = val.data;
     });
   },
