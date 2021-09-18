@@ -35,7 +35,7 @@
               <input
                 class="inp-se"
                 type="search"
-                placeholder="Search"
+                placeholder="Buscar"
                 aria-label="Search"
               />
               <button class="btn btn-search" type="submit">
