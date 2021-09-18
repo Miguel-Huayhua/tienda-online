@@ -1,0 +1,40 @@
+#app {
+    width: 90%;
+    background-color: rgba(222, 237, 252, 0.555);
+    margin: 0 auto;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(203, 203, 231, 0.815);
+  
+}
+body{
+    scrollbar-color: rgba(114, 38, 38, 0.5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+}
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-button:increment, #app::-webkit-scrollbar-button {
+    display: none;
+}
+body::-webkit-scrollbar-button:increment {
+display: none;
+}
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+#app::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
